@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#obleceni{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    min-height: 1200px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.obleceni__container{
+    width:100%;
+    max-width: 1600px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px 20px;
+    margin-top: 50px;
+}
+
+.obleceni--figure{
+    width:100%;
+    max-width: 450px;
+}
+.obleceni--image{
+    width:100%;
+    max-height: 350px;
+    min-height: 350px;
+}
+.oblecek{
+    width:100%;
+    max-width: 350px;
+    
+}
+.obleceni--popis{
+    width:100%;
+    max-width: 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    box-shadow: 10px 10px 10px 10px;
+    background-color: rgb(46, 214, 46);
+    gap:10px;
+    border-radius: 10px;
+    
+}
+.oblecek:hover{
+    transform: scale(0.9);
+    transition: all 400ms ease;
+}
+.obleceni--popis h3{
+    font-size: 20px;
+    text-align: center;
+}
+.obleceni--popis span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.druhySpan{
+    margin-top:50px;
+}
+
+.oblecek--kratasy{
+    max-width: 600px;
+}
+.kratasy-figure{
+    max-width: 600px;
+}
+.kratasy--image{
+    width: 100%;
+    max-width: 600px;
+    min-width: 600px;
+}
+.kratasy--popis{
+    max-width: 600px;
+}
